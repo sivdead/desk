@@ -1,0 +1,65 @@
+/*产业资源共享主样式*/
+html{
+   font-size:62.5%; /* 10÷16=62.5% */
+   height: 100%;
+   font-family: "微软雅黑";
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+ul{margin-bottom: 0rem;margin-top: 0px;padding: 0rem;}
+li{list-style: none;}
+.mui-bar-nav{background-color: #2B405B;box-shadow: none;position: fixed;top:0;}
+.mui-bar-nav .mui-icon{display:inline-block;height:2.3rem;width:4.5rem;}
+.mui-bar-nav .mui-title{font-size:1.8rem;color: #FFFFFF;}
+.mui-bar-nav .iconright{background: url("../imgs/ico6.png")no-repeat center center;background-size: 3rem 0.8rem;display: inline-block;height: 4.5rem;}
+.mui-bar-nav .iconleft{background: url("../imgs/ico5.png")no-repeat 1rem center;background-size: 1rem 1.8rem;display: inline-block;height: 4.5rem;}
+.boxtit{display: block;text-align: center;height: 3rem;line-height: 5rem;font-size: 1.7rem;color:#707175;}
+.boxtit m{display: inline-block;color:#6291F0;}
+
+/*行业划分样式*/
+.overallbox{background-color: #FFFFFF;padding: 1rem;height: 100%;}
+.overallbox .mui-segmented-control{border:1px solid #E0E0E0}
+.overallbox .mui-segmented-control a{color: #999999;font-size: 1.4rem;}
+.overallbox .mui-segmented-control a.mui-active{color: #707175;background-color:#E6EBF1;}
+.mui-segmented-control .mui-control-item{border-left: 1px solid #E6EBF1;}
+.overallbox-tit{font-size: 1.7rem;text-align: center;height: 2.4rem;width: 100%;color: #707175;}
+.overallbox-time{text-align: center;display: block;font-size: 1.4rem;color: #7AA3F6;}
+.ranklist-li{height: 1.6rem;line-height: 1.6rem;width: 100%;margin-bottom: 0.5rem;}
+.ranklist-li span{display: inline-block;font-size: 1.2rem;width: 9%;float: left;text-align: center;color: #707175;}
+.ranklist-li .ranklist-li-inner{height: 0.9rem;width: 82%;background-color:#C6CCDC;float: left;margin-top: 0.4rem;margin-left: 0.2rem;}
+.ranklist-li .ranklist-li-numb{float: right;width: 8%;}
+.ranklist-li .ranklist-li-inner .li-inner-box{height: 100%;width: 70%;background-color:#81adf6;}
+
+
+
+/*底部的tab切换样式*/
+.mui-bar-tab{background-color: #ffffff;height: 5.4rem;color: #979797;font-size: 1.3rem;}
+.mui-bar-tab .mui-tab-item .mui-icon~.mui-tab-label{font-size: 1.3rem;}
+.mui-bar-tab .mui-tab-item .overall{background: url(../imgs/icobtn6.png) no-repeat;background-size: 2.2rem 2.2rem;}
+.mui-bar-tab .mui-tab-item .rank{background: url(../imgs/icobtn1.png) no-repeat;background-size: 2.2rem 2.2rem;}
+.mui-bar-tab .mui-tab-item .source{background: url(../imgs/icobtn8.png) no-repeat;background-size: 2.2rem 2.2rem;}
+.mui-bar-tab .mui-tab-item .division{background: url(../imgs/icobtn3.png) no-repeat;background-size: 2.2rem 2.2rem;}
+.mui-bar-tab .mui-tab-item .mui-tab-label{color: #979797;font-size: 1.3rem;padding-bottom: 0.3rem;}
+.mui-bar-tab .mui-active .mui-tab-label{color: #5A96FB;}
+.mui-bar-tab .mui-icon{margin-top: 0.3rem;}
+.mui-bar-tab .mui-active .overall{background: url(../imgs/icobtn7.png) no-repeat;background-size: 2.2rem 2.2rem;}
+.mui-bar-tab .mui-active .rank{background: url(../imgs/icobtn2.png) no-repeat;background-size: 2.2rem 2.2rem;}
+.mui-bar-tab .mui-active .source{background: url(../imgs/icobtn5.png) no-repeat;background-size: 2.2rem 2.2rem;}
+.mui-bar-tab .mui-active .division{background: url(../imgs/icobtn4.png) no-repeat;background-size: 2.2rem 2.2rem;}
+
+
+/*行业划分样式*/
+.divibox{color: #FFFFFF;}
+.divibox .diviboxc{height: 40rem;width: 32rem;margin: 1rem auto;}
+/*弹窗的样式*/
+
+.mui-popover-arrow{display: none;}
+.popboxs{position: fixed;width:86%;left:7%;top: 18%;background-color: #F3F6F9;border-radius: 0.8rem;padding: 1rem;}
+.popboxs-cancenl{position: absolute;right: -1rem;top:-1rem;display: inline-block;width: 2.5rem;height: 2.5rem;background: url(../imgs/ico2.png)no-repeat;background-size: 100% 100%;}
+.confirmbox-text .mui-radio input::before{font-size: 24px;}
+.confirmbox-text .mui-input-row{border-bottom: 1px solid #ebebeb;height: 3.8rem;}
+.confirmbox-text .mui-radio input{top:5px;}
+.confirmbox-text .mui-radio label{color: #646466;font-size: 1.4rem;}
+.conbox{height: 4rem;line-height: 4rem;margin-top: 1.5rem;}
+.conbox .conbox-sure{display: block;width: 60%;height: 3.8rem;line-height: 3.8rem;border-radius: 1.5rem;
+margin: 0.5rem auto;background-color:#5690F0;text-align: center;font-size: 1.8rem;color: #FFFFFF;}
